@@ -11,7 +11,8 @@ Portal dizinindeki "\frontend\config\main.php" dosyasına girerek şu satırlar�
 
 
 Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere aşağıdaki satırları ekliyoruz;
----------------------------
+
+*************************
 
 "repositories": [ { .... { "type": "vcs", "url": "https://github.com/cuneytarabul/dersprogrami.git" } ],
 
@@ -20,7 +21,8 @@ Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere aş
 ....   
 "kouosl/DersProgrami": "dev-master"
 },
---------------------------
+
+*************************
 
 Ekledikten sonra sanal makinaya bağlanarak aşağıdaki komutları çalıştırıyoruz;
 
