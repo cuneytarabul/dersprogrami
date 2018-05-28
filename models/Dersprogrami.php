@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace kouosl\DersProgrami\models;
 
 use Yii;
 
