@@ -6,7 +6,7 @@ Komut satırında modülümüzü ekleyeceğimiz yere (@vendor/kouosl/) altına g
 
 Portal dizinindeki "\frontend\config\main.php" dosyasına girerek şu satırları ekliyoruz;
 
-'Randevu' => [ 'class' => 'kouosl\DersProgrami\Module'
+'DersProgrami' => [ 'class' => 'kouosl\DersProgrami\Module'
 ],
 
 Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere şu satırları ekliyoruz;
