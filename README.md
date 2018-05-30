@@ -3,17 +3,17 @@
 Ders Programı modülünü eklemek için öncelikle,
 Portal klasörünün içerisindeki composer.json dosyasında gerekli yerlere şu satırları ekliyoruz;
 
-############################
+---------------------------
 
 "repositories": [ { .... { "type": "vcs", "url": "https://github.com/cuneytarabul/dersprogrami.git" } ],
 
 "require": {
 
 ....   
-"kouosl/Mekan": "dev-master"
+"kouosl/DersProgrami": "dev-master"
 },
 
-############################
+----------------------------
 
 Ekledikten sonra sanal makinaya bağlanarak şu komutları çalıştırıyoruz;
 
@@ -25,8 +25,12 @@ Komutunu çalıştırıyoruz böylelikle veritabanımızı oluşturup örnek bir
 
 Portal dizinindeki "\frontend\config\main.php" dosyasına girerek şu satırları ekliyoruz;
 
-'Mekan' => [ 'class' => 'kouosl\DersProgrami\Module'
+----------------------------
+
+'DersProgrami' => [ 'class' => 'kouosl\DersProgrami\Module'
 ],
+
+----------------------------
 
 Modül kurulumu tamamlanmıştır.
 
